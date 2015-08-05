@@ -1,12 +1,5 @@
 # eyePi
 test2
- l_fil = len(fetch_info_lines)
-        l_fhi = len(fetch_head_info)
-        assert l_fil >= l_fhi, "len(%s) <= len(%s)" % (l_fil, l_fhi)
-
-        output.extend(FetchInfo._from_line(self.repo, err_line, fetch_line)
-                      for err_line, fetch_line in zip(fetch_info_lines, fetch_head_info))
-        return output
 
     def _get_push_info(self, proc, progress):
         # read progress information from stderr
