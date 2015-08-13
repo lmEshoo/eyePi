@@ -8,8 +8,6 @@ http://opencv.willowgarage.com/documentation/python/cookbook.html
 http://www.lucaamore.com/?p=638
 
 '''
-
-
 #Python 2.7.2
 
 #Opencv 2.4.2
