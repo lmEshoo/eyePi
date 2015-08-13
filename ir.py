@@ -21,7 +21,6 @@ import glob
 
 import os
 
-
 def DetectFace(image, faceCascade, returnImage=False):
 
     # This function takes a grey scale cv image and finds
