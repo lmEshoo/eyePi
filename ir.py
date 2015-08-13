@@ -13,8 +13,6 @@ http://www.lucaamore.com/?p=638
 #Opencv 2.4.2
 
 #PIL 1.1.7
-
-
 import cv #Opencv
 
 import Image #Image from PIL
