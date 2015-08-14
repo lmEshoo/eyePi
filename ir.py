@@ -9,9 +9,7 @@ http://www.lucaamore.com/?p=638
 
 '''
 #Python 2.7.2
-
 #Opencv 2.4.2
-
 #PIL 1.1.7
 import cv #Opencv
 
