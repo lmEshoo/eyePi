@@ -1,6 +1,6 @@
 # eyePi
 test3
-
+dsfa
     def _get_push_info(self, proc, progress):
         # read progress information from stderr
         # we hope stdout can hold all the data, it should ...
