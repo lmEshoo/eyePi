@@ -1,5 +1,5 @@
 # eyePi
-test2
+test3
 
     def _get_push_info(self, proc, progress):
         # read progress information from stderr
