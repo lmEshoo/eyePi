@@ -1,6 +1,7 @@
 # eyePi
 [OpenCV](http://www.robopapa.com/Projects/InstallOpenCVOnRaspberryPi)
 ###install:
+```
 sudo apt-get update
 
 sudo apt-get upgrade
@@ -29,6 +30,20 @@ sudo apt-get -y install build-essential cmake cmake-curses-gui pkg-config libpng
 
 sudo apt-get -y install libjpeg8 libjpeg8-dev libjpeg8-dbg libjpeg-progs ffmpeg libavcodec-dev libavcodec53 libavformat53 libavformat-dev libgstreamer0.10-0-dbg libgstreamer0.10-0 libgstreamer0.10-dev libxine1-ffmpeg libxine-dev libxine1-bin libunicap2 libunicap2-dev swig libv4l-0 libv4l-dev python-numpy libpython2.6 python-dev python2.6-dev libgtk2.0-dev	
 
+wget -O openCV-2.4.11.zip https://github.com/Itseez/opencv/archive/2.4.11.zip
+
+unzip openCV-2.4.11.zip
+
+cd openCV-2.4.11
+
+mkdir release
+
+cd release
+
+sudo ccmake ../ 
+
+sudo make
+```
 ###explanding file system
 sudo raspi-config
 expand filesystem
