@@ -1,5 +1,6 @@
 # eyePi
 [OpenCV](http://www.robopapa.com/Projects/InstallOpenCVOnRaspberryPi)
+[Goal](https://www.youtube.com/watch?v=b2kGPWxJybo)
 ###install:
 ```
 sudo apt-get update
