@@ -45,6 +45,10 @@ cd release
 sudo ccmake ../ 
 
 sudo make
+
+sudo make install
+
+sudo apt-get install cmake libopencv-dev
 ```
 ###explanding file system
 sudo raspi-config
