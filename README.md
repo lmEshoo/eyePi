@@ -48,7 +48,7 @@ sudo make
 
 sudo make install
 
-sudo apt-get install cmake libopencv-dev
+[follow this](https://github.com/tasanakorn/rpi-mmal-demo)
 ```
 ###explanding file system
 sudo raspi-config
